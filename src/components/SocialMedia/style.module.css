@@ -1,0 +1,17 @@
+.socialMediaNav {
+  display: block;
+}
+
+.socialMediaLink {
+  margin-right: 35px;
+  transition: all 0.3s linear;
+  color: #ccc8bd;
+}
+
+.socialMediaLink:last-child {
+  margin-right: 0;
+}
+
+.socialMediaLink:hover {
+  color: #827b6b;
+}
