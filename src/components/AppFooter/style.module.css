@@ -1,0 +1,23 @@
+.footerNav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+}
+
+.mainMenuWrap {
+  display: block;
+}
+
+.footerInfo {
+  display: flex;
+}
+
+.footerInfo > *:not(:first-child) {
+  margin-left: 20px;
+}

@@ -1,5 +1,7 @@
+import MainNavigation from "./components/MainNavigation";
+
 const App = () => (
-  <h1>This is Custxmer</h1>
+  <MainNavigation />
 );
 
 export default App;
