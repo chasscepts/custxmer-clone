@@ -4,6 +4,8 @@ import css from './style.module.css';
 import mobile1 from '../../assets/images/mobile1.webp';
 import mobile2 from '../../assets/images/mobile2.webp';
 import mobile3 from '../../assets/images/mobile3.webp';
+import cartoon1 from '../../assets/images/cartoon1.webp';
+import cartoon2 from '../../assets/images/cartoon2.webp';
 import slideImage1 from '../../assets/images/slide1.png';
 import slideImage2 from '../../assets/images/slide2.jpg';
 import slideImage3 from '../../assets/images/slide3.png';
@@ -110,16 +112,20 @@ const Body = () => {
   const [slideIndex, setSlideIndex] = useState(0);
 
   return (
-    <div>
+    <div className={css.container}>
       <section>
-        <h1 className={css.heading}>
-          Manage and contact your service providers by simply tapping your phone!
-        </h1>
-        <div className={css.bannerWrap}>
-          <div className={css.bannerWrapInner}>
-            <img className={css.bgMobile} alt="mobile app" src={mobile2} />
-            <img className={css.bgMobile} alt="mobile app" src={mobile3} />
-            <img className={css.fgMobile} alt="mobile app" src={mobile1} />
+        <div className="container">
+          <h1 className={css.heading}>
+            Manage and contact your service providers by simply tapping your phone!
+          </h1>
+          <div className={css.bannerWrap}>
+            <div className={css.bannerWrapInner}>
+              <img className={css.bgMobile} alt="mobile app" src={mobile2} />
+              <img className={css.bgMobile} alt="mobile app" src={mobile3} />
+              <img className={css.fgMobile} alt="mobile app" src={mobile1} />
+              <img className={css.cartoon1} alt="mobile app" src={cartoon1} />
+              <img className={css.cartoon2} alt="mobile app" src={cartoon2} />
+            </div>
           </div>
         </div>
       </section>
