@@ -77,10 +77,15 @@ const SlideCountdown = (() => {
       });
     },
     isActive: () => active,
-  }
+  };
 })();
 
-const Slider = ({ slides, Slide, paused, onSlideCompleted }) => {
+const Slider = ({
+  slides,
+  Slide,
+  paused,
+  onSlideCompleted,
+}) => {
   const lastIndex = useRef(slides.length - 1);
   const timer = useRef(null);
 
@@ -148,8 +153,7 @@ const Slider = ({ slides, Slide, paused, onSlideCompleted }) => {
         centerClass = '';
       }
       currentlyCentered = true;
-    }
-    else {
+    } else {
       if (isLeft) {
         leftClass = css.left;
         rightClass = '';
@@ -230,10 +234,8 @@ const Slider = ({ slides, Slide, paused, onSlideCompleted }) => {
         }
         reArrange();
       });
-    } else {
-      if (!paused) {
-        timer.current = Timer.after(5000, next);
-      }
+    } else if (!paused) {
+      timer.current = Timer.after(5000, next);
     }
   }, [state]);
 

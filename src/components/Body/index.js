@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import PropTypes from 'prop-types';
 import css from './style.module.css';
 import mobile1 from '../../assets/images/mobile1.webp';
@@ -7,7 +8,6 @@ import slideImage1 from '../../assets/images/slide1.png';
 import slideImage2 from '../../assets/images/slide2.jpg';
 import slideImage3 from '../../assets/images/slide3.png';
 import Slider from '../Slider';
-import { useState } from 'react';
 
 const slides = [
   {
@@ -81,7 +81,12 @@ Slide.propTypes = {
   }).isRequired,
 };
 
-const ArticlesCard = ({ title, iconClass, text, link }) => (
+const ArticlesCard = ({
+  title,
+  iconClass,
+  text,
+  link,
+}) => (
   <section className={css.articleCard}>
     <div className={css.articleIconWrap}>
       <i className={iconClass} />

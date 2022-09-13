@@ -1,6 +1,6 @@
+import { Link } from 'react-router-dom';
 import css from './style.module.css';
 import { paths } from '../../utils';
-import { Link } from 'react-router-dom';
 
 const MainMenu = () => (
   <nav className={css.menu}>
