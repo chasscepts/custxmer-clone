@@ -20,7 +20,7 @@ const SocialMedia = () => (
           target="_blank"
           rel="noreferrer"
         >
-          <i className="fa-brands fa-linkedin-in"></i>
+          <i className="fa-brands fa-linkedin-in" />
         </a>
       </li>
     </ul>
