@@ -9,7 +9,7 @@ const DrawerNav = ({ isOpen, onClose }) => {
   return (
     <div className={`${css.drawerNavContainer} ${isOpen ? css.open : ''}`}>
       <div className={css.drawerHeader}>
-        <button className={css.drawerCloseBtn} onClick={onClose}>
+        <button type="button" className={css.drawerCloseBtn} onClick={onClose}>
           <i className="fa-solid fa-xmark" />
         </button>
       </div>

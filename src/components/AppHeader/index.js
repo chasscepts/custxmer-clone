@@ -31,7 +31,7 @@ const AppHeader = ({ isDrawerOpen, setDrawerOpen }) => {
             <SocialMedia />
           </div>
           <div className={css.hamburgerWrap}>
-            <button className={css.hamburger} onClick={openDrawer} >
+            <button type="button" className={css.hamburger} onClick={openDrawer}>
               <i className="fa-solid fa-bars" />
             </button>
           </div>

@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import AppHeader from './AppHeader';
 import { paths } from '../utils';
@@ -6,7 +7,6 @@ import Home from '../containers/Home';
 import Services from '../containers/Services';
 import Contact from '../containers/Contact';
 import AppFooter from './AppFooter';
-import { useState } from 'react';
 
 const MainNavigation = () => {
   const [isDrawerOpen, setDrawerOpen] = useState(false);

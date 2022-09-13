@@ -49,20 +49,14 @@
   font-size: 0.8rem;
 }
 
-.hamburgerWrap  {
-  position: fixed;
+.hamburgerWrap {
+  position: absolute;
   right: 0;
   top: 0;
   height: 60px;
   padding-right: 30px;
   display: none;
   align-items: center;
-}
-
-.hamburgerWrap {
-  position: absolute;
-  right: 0;
-  top: 0;
 }
 
 .hamburger {
@@ -88,4 +82,4 @@
   .hamburgerWrap {
     display: flex;
   }
-};
+}

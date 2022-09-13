@@ -10,7 +10,7 @@ const AppFooter = ({ setDrawerOpen }) => {
     <footer>
       <div className={css.footerNav}>
         <div className={`container ${css.navWrap}`}>
-          <button className={css.hamburger} onClick={openDrawer} >
+          <button type="button" className={css.hamburger} onClick={openDrawer}>
             <i className="fa-solid fa-bars" />
           </button>
           <div className={css.socialMediaWrap}>
