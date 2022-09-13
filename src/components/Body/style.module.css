@@ -47,22 +47,39 @@
   right: 75%;
 }
 
+.sliderSection {
+  padding-bottom: 20px;
+}
+
+.sliderContainer {
+  padding: 0 30px;
+}
+
 .slideWrap {
   position: relative;
   height: 300px;
-  overflow: hidden;
 }
 
 .slide {
-  padding: 20px;
+  padding: 50px;
   background-color: teal;
   color: #fff;
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   height: 100%;
+}
+
+.slideTextWrap {
+  width: 100%;
+  padding-right: 50px;
 }
 
 .slideTitle {
   margin-bottom: 20px;
+}
+
+.slideText {
+  margin-bottom: 15px;
 }
 
 .slideImageWrap {
@@ -100,7 +117,7 @@
 }
 
 .articesContainer {
-  padding: 10px 40px 60px;
+  padding: 10px 60px 60px;
 }
 
 .articlesWrap {

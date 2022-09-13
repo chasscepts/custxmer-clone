@@ -14,13 +14,13 @@ import Slider from '../Slider';
 const slides = [
   {
     title: 'Main Heading One',
-    text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
+    text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
     image: slideImage1,
     link: 'https://github.com/Custxmer/Simple-Recruitment-Take-Home-Project',
   },
   {
     title: 'Main Heading Two',
-    text: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.',
+    text: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.',
     image: slideImage2,
     link: 'https://github.com/Custxmer/Simple-Recruitment-Take-Home-Project',
   },
@@ -61,9 +61,9 @@ const articles = [
 
 const Slide = ({ slide }) => (
   <div className={css.slide}>
-    <div>
-      <h1>{slide.title}</h1>
-      <div>
+    <div className={css.slideTextWrap}>
+      <h1 className={css.slideTitle}>{slide.title}</h1>
+      <div className={css.slideText}>
         {slide.text}
       </div>
       <a href={slide.link} target="_blank" rel="noreferrer">Read More</a>
@@ -129,22 +129,24 @@ const Body = () => {
           </div>
         </div>
       </section>
-      <section>
+      <section className={css.sliderSection}>
         <h1 className="clip">Slide Show</h1>
-        <div className={css.slideWrap}>
-          <Slider Slide={Slide} slides={slides} onSlideCompleted={setSlideIndex} paused />
+        <div className={`container ${css.sliderContainer}`}>
+          <div className={css.slideWrap}>
+            <Slider Slide={Slide} slides={slides} onSlideCompleted={setSlideIndex} paused />
+          </div>
+          <ol aria-label="Slide Index Indicator" className={css.slideIndexIndicatorWrap}>
+            <li aria-current={slideIndex === 0}>
+              <span className={`${css.slideIndexIndicator} ${slideIndex === 0 ? css.active : ''}`} />
+            </li>
+            <li aria-current={slideIndex === 1}>
+              <span className={`${css.slideIndexIndicator} ${slideIndex === 1 ? css.active : ''}`} />
+            </li>
+            <li aria-current={slideIndex === 2}>
+              <span className={`${css.slideIndexIndicator} ${slideIndex === 2 ? css.active : ''}`} />
+            </li>
+          </ol>
         </div>
-        <ol aria-label="Slide Index Indicator" className={css.slideIndexIndicatorWrap}>
-          <li aria-current={slideIndex === 0}>
-            <span className={`${css.slideIndexIndicator} ${slideIndex === 0 ? css.active : ''}`} />
-          </li>
-          <li aria-current={slideIndex === 1}>
-            <span className={`${css.slideIndexIndicator} ${slideIndex === 1 ? css.active : ''}`} />
-          </li>
-          <li aria-current={slideIndex === 2}>
-            <span className={`${css.slideIndexIndicator} ${slideIndex === 2 ? css.active : ''}`} />
-          </li>
-        </ol>
       </section>
       <section className={css.articleSection}>
         <h1 className="clip">Articles</h1>
