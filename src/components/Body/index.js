@@ -148,16 +148,18 @@ const Body = () => {
       </section>
       <section className={css.articleSection}>
         <h1 className="clip">Articles</h1>
-        <div className={css.articlesWrap}>
-          {articles.map((article) => (
-            <ArticlesCard
-              key={article.title}
-              title={article.title}
-              iconClass={article.iconClass}
-              text={article.text}
-              link={article.link}
-            />
-          ))}
+        <div className={`container ${css.articesContainer}`}>
+          <div className={css.articlesWrap}>
+            {articles.map((article) => (
+              <ArticlesCard
+                key={article.title}
+                title={article.title}
+                iconClass={article.iconClass}
+                text={article.text}
+                link={article.link}
+              />
+            ))}
+          </div>
         </div>
       </section>
     </div>

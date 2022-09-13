@@ -97,12 +97,14 @@
 
 .articleSection {
   background-color: #ececec;
-  padding: 10px 10px 20px;
+}
+
+.articesContainer {
+  padding: 10px 40px 60px;
 }
 
 .articlesWrap {
   width: 100%;
-  max-width: 800px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 10px;
@@ -111,7 +113,7 @@
 .articleCard {
   position: relative;
   background-color: #fff;
-  padding: 10px 10px 40px;
+  padding: 10px;
   width: 100%;
   max-width: 400px;
   height: 100%;
@@ -122,7 +124,7 @@
   display: flex;
   justify-content: center;
   color: #ff7101;
-  font-size: 72px;
+  font-size: 50px;
 }
 
 .articleTitle {
@@ -133,19 +135,20 @@
 
 .articleText {
   text-align: center;
+  padding-bottom: 30px;
 }
 
 .articleLinkWrap {
   position: absolute;
   left: 0;
-  bottom: -15px;
+  bottom: -18px;
   width: 100%;
   display: flex;
   justify-content: center;
 }
 
 .articleLink {
-  padding: 15px;
+  padding: 7px 10px;
   background-color: teal;
   color: #fff;
 }
