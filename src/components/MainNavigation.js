@@ -23,7 +23,7 @@ const MainNavigation = () => {
             <Route path={paths.CONTACT} element={<Contact />} />
           </Routes>
         </main>
-        <AppFooter />
+        <AppFooter setDrawerOpen={setDrawerOpen} />
       </BrowserRouter>
     </div>
   );
