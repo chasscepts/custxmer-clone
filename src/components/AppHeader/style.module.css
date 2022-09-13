@@ -1,8 +1,17 @@
+.headerWrap {
+  background-color: #0a0657;
+}
+
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 15px;
+  padding: 0 15px;
+}
+
+.logoWrap {
+  background-color: #fff;
+  padding: 10px;
 }
 
 .logo {
@@ -11,4 +20,31 @@
 
 .mainMenuWrap {
   display: block;
+}
+
+.location {
+  background-color: #ececec;
+  color: #0a0657;
+  padding: 3px 0;
+}
+
+.locationInner {
+  position: relative;
+}
+
+.locationInner::before {
+  content: '';
+  position: absolute;
+  left: 15px;
+  bottom: -9px;
+  width: 18px;
+  height: 18px;
+  transform: rotate(45deg);
+  background-color: #ececec;
+}
+
+.locationText {
+  position: relative;
+  z-index: 2;
+  font-size: 0.8rem;
 }
