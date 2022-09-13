@@ -13,6 +13,7 @@
 .contacts {
   display: flex;
   flex-direction: column;
+  align-items: flex-end;
   font-size: 0.9rem;
 }
 
@@ -28,6 +29,46 @@
   display: flex;
 }
 
-.footerInfoContainer > *:not(:first-child) {
+.footerInfoContainer > * {
   margin-left: 20px;
+}
+
+.footerInfoContainer > *:first-child {
+  margin-left: 0;
+}
+
+.hamburger {
+  color: #fff;
+  font-size: 32px;
+  display: none;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+  .navWrap {
+    padding: 15px 30px;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .socialMediaWrap,
+  .mainMenuWrap {
+    display: none;
+  }
+
+  .footerInfo {
+    padding: 20px;
+  }
+
+  .footerInfoContainer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footerInfoContainer > * {
+    margin-left: 0;
+    padding: 5px 0;
+  }
 }

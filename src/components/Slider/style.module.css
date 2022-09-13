@@ -48,8 +48,8 @@
 .cover {
   position: absolute;
   top: 0;
-  left: -12px;
-  right: -12px;
+  left: -16px;
+  right: -16px;
   bottom: 0;
   display: flex;
   align-items: center;
@@ -65,9 +65,9 @@
 
 .navBtn {
   background-color: #0a0657;
-  padding: 6px;
-  width: 24px;
-  height: 24px;
+  padding: 8px;
+  width: 32px;
+  height: 32px;
   border: none;
   outline: none;
   pointer-events: all;

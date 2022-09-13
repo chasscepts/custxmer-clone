@@ -35,19 +35,19 @@ const slides = [
 const articles = [
   {
     title: 'Title 1',
-    iconClass: 'fa-solid fa-image',
+    iconClass: 'fa-sharp fa-solid fa-images',
     text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
     link: 'https://github.com/Custxmer/Simple-Recruitment-Take-Home-Project',
   },
   {
     title: 'Title 2',
-    iconClass: 'fa-solid fa-image',
+    iconClass: 'fa-sharp fa-solid fa-map-location-dot',
     text: 'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti.',
     link: 'https://github.com/Custxmer/Simple-Recruitment-Take-Home-Project',
   },
   {
     title: 'Title 3',
-    iconClass: 'fa-sharp fa-solid fa-city',
+    iconClass: 'fa-solid fa-cloud-arrow-up',
     text: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem.',
     link: 'https://github.com/Custxmer/Simple-Recruitment-Take-Home-Project',
   },
@@ -66,7 +66,9 @@ const Slide = ({ slide }) => (
       <div className={css.slideText}>
         {slide.text}
       </div>
-      <a href={slide.link} target="_blank" rel="noreferrer">Read More</a>
+      <div className={css.slideLinkWrap}>
+        <a href={slide.link} target="_blank" rel="noreferrer">Read More</a>
+      </div>
     </div>
     <div className={css.slideImageWrap}>
       <img className={css.slideImage} alt="slide" src={slide.image} />

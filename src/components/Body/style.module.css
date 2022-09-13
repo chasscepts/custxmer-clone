@@ -78,8 +78,8 @@
   margin-bottom: 20px;
 }
 
-.slideText {
-  margin-bottom: 15px;
+.slideLinkWrap {
+  padding: 15px 0 0;
 }
 
 .slideImageWrap {
@@ -168,4 +168,34 @@
   padding: 7px 10px;
   background-color: teal;
   color: #fff;
+}
+
+@media only screen and (max-width: 768px) {
+  .articlesWrap {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 40px;
+  }
+
+  .articesContainer {
+    padding: 20px 60px 60px;
+  }
+
+  .slideWrap {
+    height: 500px;
+  }
+
+  .slide {
+    display: block;
+  }
+
+  .slideTitle {
+    text-align: center;
+    font-size: 28px;
+  }
+
+  .slideLinkWrap {
+    padding: 30px 0;
+    display: flex;
+    justify-content: center;
+  }
 }
