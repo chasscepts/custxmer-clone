@@ -1,8 +1,9 @@
+import Body from '../../components/Body';
 import css from './style.module.css';
 
 const About = () => (
   <section className={css.container}>
-    <h1>This is About Page</h1>
+    <Body />
   </section>
 );
 

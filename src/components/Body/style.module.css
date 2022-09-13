@@ -1,0 +1,139 @@
+.container {
+  position: relative;
+}
+
+.heading{
+  text-align: center;
+}
+
+.bannerWrap {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  padding: 0 20px;
+}
+
+.bannerWrapInner {
+  position: relative;
+  width: 100%;
+  max-width: 480px;
+  padding: 30px 0;
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.bgMobile {
+  flex: 0 0 50%;
+  height: 100%;
+}
+
+.fgMobile {
+  position: absolute;
+  top: 0;
+  left: 25%;
+  width: 50%;
+  height: 100%;
+}
+
+.slideWrap {
+  position: relative;
+  height: 300px;
+  overflow: hidden;
+}
+
+.slide {
+  padding: 20px;
+  background-color: teal;
+  color: #fff;
+  display: flex;
+  height: 100%;
+}
+
+.slideTitle {
+  margin-bottom: 20px;
+}
+
+.slideImageWrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slideIndexIndicatorWrap {
+  list-style: none;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  background-color: #ececec;
+}
+
+.slideIndexIndicatorWrap > li:not(:first-child) {
+  margin-left: 5px;
+}
+
+.slideIndexIndicator {
+  display: block;
+  height: 0;
+  border-top: 3px solid #b3b7ba;
+  width: 70px;
+}
+
+.slideIndexIndicator.active {
+  border-top-color: #0a0657;
+}
+
+.articleSection {
+  background-color: #ececec;
+  padding: 10px 10px 20px;
+}
+
+.articlesWrap {
+  width: 100%;
+  max-width: 800px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.articleCard {
+  position: relative;
+  background-color: #fff;
+  padding: 10px 10px 40px;
+  width: 100%;
+  max-width: 400px;
+  height: 100%;
+  margin: auto;
+}
+
+.articleIconWrap {
+  display: flex;
+  justify-content: center;
+  color: #ff7101;
+  font-size: 72px;
+}
+
+.articleTitle {
+  text-align: center;
+  color: teal;
+  padding: 15px;
+}
+
+.articleText {
+  text-align: center;
+}
+
+.articleLinkWrap {
+  position: absolute;
+  left: 0;
+  bottom: -15px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.articleLink {
+  padding: 15px;
+  background-color: teal;
+  color: #fff;
+}
