@@ -6,7 +6,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 15px;
+  padding: 0 30px;
 }
 
 .logoWrap {
@@ -48,3 +48,44 @@
   z-index: 2;
   font-size: 0.8rem;
 }
+
+.hamburgerWrap  {
+  position: fixed;
+  right: 0;
+  top: 0;
+  height: 60px;
+  padding-right: 30px;
+  display: none;
+  align-items: center;
+}
+
+.hamburgerWrap {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.hamburger {
+  color: #fff;
+  font-size: 32px;
+  pointer-events: all;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+  .mainMenuWrap {
+    display: none;
+  }
+
+  .logoWrap {
+    padding: 15px 10px;
+  }
+
+  .socialMediaWrap {
+    padding-right: 80px;
+  }
+
+  .hamburgerWrap {
+    display: flex;
+  }
+};
