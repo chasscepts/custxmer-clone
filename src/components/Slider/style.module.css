@@ -5,6 +5,13 @@
   background-color: transparent;
 }
 
+.slideClip {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
 .noContent {
   position: relative;
   width: 100%;
@@ -41,9 +48,9 @@
 .cover {
   position: absolute;
   top: 0;
-  right: 0;
+  left: -12px;
+  right: -12px;
   bottom: 0;
-  left: 0;
   display: flex;
   align-items: center;
   pointer-events: none;
@@ -54,22 +61,28 @@
   width: 100%;
   display: flex;
   justify-content: space-between;
-  padding: 0 20px;
 }
 
 .navBtn {
-  background-color: transparent;
+  background-color: #0a0657;
+  padding: 6px;
+  width: 24px;
+  height: 24px;
   border: none;
   outline: none;
-  padding: 0;
   pointer-events: all;
   cursor: pointer;
+}
+
+.navBtn:active {
+  padding: 2px;
 }
 
 .navBtn svg {
   color: #fff;
   opacity: 0.8;
-  width: 32px;
+  width: 100%;
+  height: 100%;
   transition: all 0.3s ease;
 }
 

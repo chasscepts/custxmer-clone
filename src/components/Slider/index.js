@@ -249,14 +249,16 @@ const Slider = ({
 
   return (
     <div className={css.container}>
-      <div className={`${css.slide} ${state.left.class}`}>
-        <Slide slide={slides[state.left.index]} />
-      </div>
-      <div className={`${css.slide} ${state.center.class}`}>
-        <Slide slide={slides[state.center.index]} />
-      </div>
-      <div className={`${css.slide} ${state.right.class}`}>
-        <Slide slide={slides[state.right.index]} />
+      <div className={css.slideClip}>
+        <div className={`${css.slide} ${state.left.class}`}>
+          <Slide slide={slides[state.left.index]} />
+        </div>
+        <div className={`${css.slide} ${state.center.class}`}>
+          <Slide slide={slides[state.center.index]} />
+        </div>
+        <div className={`${css.slide} ${state.right.class}`}>
+          <Slide slide={slides[state.right.index]} />
+        </div>
       </div>
       <div className={css.cover}>
         <nav className={css.nav}>

@@ -2,16 +2,15 @@
   display: block;
 }
 
-.socialMediaLink {
-  margin-right: 35px;
-  transition: all 0.3s linear;
-  color: #ccc8bd;
+.listItem:not(:first-child) {
+  margin-left: 15px;
 }
 
-.socialMediaLink:last-child {
-  margin-right: 0;
+.socialMediaLink {
+  transition: all 0.3s linear;
+  color: #fff;
 }
 
 .socialMediaLink:hover {
-  color: #827b6b;
+  color: #ccc;
 }

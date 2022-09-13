@@ -2,6 +2,26 @@
   display: block;
 }
 
+.menuItem:not(:first-child) {
+  margin-left: 40px;
+}
+
 .link {
-  color: inherit;
+  display: block;
+  border-bottom: 2px solid transparent;
+  color: #fff;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+.link:hover {
+  color: #ccc;
+}
+
+.link.active {
+  border-bottom-color: #fff;
+}
+
+.link.active:hover {
+  border-bottom-color: #ccc;
 }

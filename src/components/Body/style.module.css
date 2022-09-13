@@ -4,26 +4,26 @@
 
 .heading {
   text-align: center;
+  padding: 20px 0;
 }
 
 .bannerWrap {
   position: relative;
-  display: flex;
-  justify-content: center;
-  padding: 0 20px;
+  padding: 40px 20px 60px;
 }
 
 .bannerWrapInner {
   position: relative;
   width: 100%;
   max-width: 480px;
+  margin: auto;
   padding: 30px 0;
-  display: flex;
-  flex-flow: row nowrap;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }
 
 .bgMobile {
-  flex: 0 0 50%;
+  width: 100%;
   height: 100%;
 }
 
@@ -35,22 +35,51 @@
   height: 100%;
 }
 
+.cartoon1 {
+  position: absolute;
+  bottom: calc(100% - 30px);
+  left: 75%;
+}
+
+.cartoon2 {
+  position: absolute;
+  top: calc(100% - 30px);
+  right: 75%;
+}
+
+.sliderSection {
+  padding-bottom: 20px;
+}
+
+.sliderContainer {
+  padding: 0 30px;
+}
+
 .slideWrap {
   position: relative;
   height: 300px;
-  overflow: hidden;
 }
 
 .slide {
-  padding: 20px;
+  padding: 50px;
   background-color: teal;
   color: #fff;
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   height: 100%;
+}
+
+.slideTextWrap {
+  width: 100%;
+  padding-right: 50px;
 }
 
 .slideTitle {
   margin-bottom: 20px;
+}
+
+.slideText {
+  margin-bottom: 15px;
 }
 
 .slideImageWrap {
@@ -85,12 +114,14 @@
 
 .articleSection {
   background-color: #ececec;
-  padding: 10px 10px 20px;
+}
+
+.articesContainer {
+  padding: 10px 60px 60px;
 }
 
 .articlesWrap {
   width: 100%;
-  max-width: 800px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 10px;
@@ -99,7 +130,7 @@
 .articleCard {
   position: relative;
   background-color: #fff;
-  padding: 10px 10px 40px;
+  padding: 10px;
   width: 100%;
   max-width: 400px;
   height: 100%;
@@ -110,7 +141,7 @@
   display: flex;
   justify-content: center;
   color: #ff7101;
-  font-size: 72px;
+  font-size: 50px;
 }
 
 .articleTitle {
@@ -121,19 +152,20 @@
 
 .articleText {
   text-align: center;
+  padding-bottom: 30px;
 }
 
 .articleLinkWrap {
   position: absolute;
   left: 0;
-  bottom: -15px;
+  bottom: -18px;
   width: 100%;
   display: flex;
   justify-content: center;
 }
 
 .articleLink {
-  padding: 15px;
+  padding: 7px 10px;
   background-color: teal;
   color: #fff;
 }

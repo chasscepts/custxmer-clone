@@ -1,13 +1,19 @@
 .footerNav {
+  background-color: #0a0657;
+  color: #fff;
+  padding: 10px 0;
+}
+
+.navWrap {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 15px;
 }
 
 .contacts {
   display: flex;
   flex-direction: column;
+  font-size: 0.9rem;
 }
 
 .mainMenuWrap {
@@ -15,9 +21,13 @@
 }
 
 .footerInfo {
+  padding: 10px;
+}
+
+.footerInfoContainer {
   display: flex;
 }
 
-.footerInfo > *:not(:first-child) {
+.footerInfoContainer > *:not(:first-child) {
   margin-left: 20px;
 }
