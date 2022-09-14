@@ -69,5 +69,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
-Meeting Banner by <a href="https://unsplash.com/@getrodeo?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Rodeo Project Management Software</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+project-management-meeting-1 by <a href="https://unsplash.com/@getrodeo?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Rodeo Project Management Software</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
+campaign by <a href="https://unsplash.com/@mailchimp?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Mailchimp</a> on <a href="https://unsplash.com/explore?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>

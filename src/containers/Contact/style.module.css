@@ -1,3 +1,71 @@
 .container {
   position: relative;
 }
+
+.content {
+  height: calc(100vh - 75px);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.heading {
+  font-size: 32px;
+  padding: 30px 0;
+  color: #0a0657;
+}
+
+.form {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  margin-bottom: 25px;
+  display: flex;
+  flex-direction: column;
+}
+
+.labelText {
+  font-weight: bold;
+  font-size: 0.9rem;
+  margin-bottom: 5px;
+}
+
+.input {
+  width: 100%;
+  max-width: 500px;
+  padding: 10px 15px;
+  background-color: #eee;
+}
+
+.contentLabel {
+  flex: 1;
+}
+
+.emailContent {
+  flex: 1;
+  resize: none;
+  width: 100%;
+  max-width: 600px;
+  padding: 20px;
+  border: 1px solid #eee;
+}
+
+.controls {
+  width: 100%;
+  max-width: 600px;
+  padding: 10px 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.submitBtn {
+  color: #fff;
+  background-color: #0a0657;
+  font-size: 0.8rem;
+  font-weight: bold;
+  padding: 8px 15px;
+  cursor: pointer;
+}
