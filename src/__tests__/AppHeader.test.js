@@ -12,7 +12,7 @@ describe('AppHeader', () => {
     const tree = renderer.create(
       <RouterWrapper>
         <AppHeader setDrawerOpen={stubFunction} />
-      </RouterWrapper>
+      </RouterWrapper>,
     );
     expect(tree.toJSON()).toMatchSnapshot();
     tree.unmount();
@@ -23,7 +23,7 @@ describe('AppHeader', () => {
       render(
         <RouterWrapper>
           <AppHeader setDrawerOpen={stubFunction} />
-        </RouterWrapper>
+        </RouterWrapper>,
       );
     });
 
@@ -37,7 +37,7 @@ describe('AppHeader', () => {
     });
 
     it('highlights the active link', () => {
-      const node = screen.getAllByRole('link', { name: 'ABOUT' })[0]
+      const node = screen.getAllByRole('link', { name: 'ABOUT' })[0];
       userEvent.click(node);
       expect(node).toHaveClass('active');
     });

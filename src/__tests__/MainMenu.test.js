@@ -10,7 +10,7 @@ describe('Main Menu', () => {
     const tree = renderer.create(
       <RouterWrapper>
         <MainMenu />
-      </RouterWrapper>
+      </RouterWrapper>,
     );
     expect(tree.toJSON()).toMatchSnapshot();
     tree.unmount();
@@ -20,7 +20,7 @@ describe('Main Menu', () => {
     render(
       <RouterWrapper>
         <MainMenu />
-      </RouterWrapper>
+      </RouterWrapper>,
     );
 
     Object.keys(paths).forEach((key) => expect(screen.getByText(key)).toBeInTheDocument());

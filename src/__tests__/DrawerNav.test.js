@@ -10,7 +10,7 @@ describe('Drawer Navigation', () => {
     const tree = renderer.create(
       <RouterWrapper>
         <DrawerNav onClose={() => {}} />
-      </RouterWrapper>
+      </RouterWrapper>,
     );
     expect(tree.toJSON()).toMatchSnapshot();
     tree.unmount();
@@ -20,7 +20,7 @@ describe('Drawer Navigation', () => {
     render(
       <RouterWrapper>
         <DrawerNav onClose={() => {}} />
-      </RouterWrapper>
+      </RouterWrapper>,
     );
 
     Object.keys(paths).forEach((key) => expect(screen.getByText(key)).toBeInTheDocument());
