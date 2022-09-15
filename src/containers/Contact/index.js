@@ -1,12 +1,17 @@
+import { useState } from 'react';
 import css from './style.module.css';
 import common from '../../assets/css/common.module.css';
 
 const Contact = () => {
+  const [isAlertOpen, openAlert] = useState(false);
+
   const submit = (e) => {
     e.preventDefault();
-    alert('Thanks for contacting! Our agents will get back to you soon.');
+    openAlert(true);
     return false;
   };
+
+  const closeAlert = () => openAlert(false);
 
   return (
     <section className={css.container}>
@@ -52,6 +57,22 @@ const Contact = () => {
           </div>
         </form>
       </div>
+      <section
+        role="dialog"
+        aria-hidden={!isAlertOpen}
+        className={`${common.screen} ${css.alertCover} ${isAlertOpen ? css.open : ''}`}
+      >
+        <h1 className="clip">Alert</h1>
+        <div className={`dim ${common.cover}`} />
+        <div className={css.alertContent}>
+          Thanks for contacting us!
+          <br />
+          Our agents will get back to you soon.
+        </div>
+        <button type="button" className={css.alertCloseBtn} onClick={closeAlert}>
+          <i className="fa-solid fa-xmark" />
+        </button>
+      </section>
     </section>
   );
 };

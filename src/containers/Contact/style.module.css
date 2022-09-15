@@ -69,3 +69,32 @@
   padding: 8px 15px;
   cursor: pointer;
 }
+
+.alertCover {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+
+.alertCover.open {
+  display: flex;
+}
+
+.alertContent {
+  max-width: 300px;
+  background-color: #fff;
+  padding: 20px;
+  position: relative;
+}
+
+.alertCloseBtn {
+  position: absolute;
+  right: 30px;
+  top: 30px;
+  color: #b90909;
+  font-size: 32px;
+  cursor: pointer;
+}
