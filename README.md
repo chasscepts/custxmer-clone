@@ -14,7 +14,7 @@
 
 ## Live Demo
 
-[demo](https://tram.netlify.app/)
+[demo](https://custxmer-chass.netlify.app/)
 
 ## Getting Started
 
