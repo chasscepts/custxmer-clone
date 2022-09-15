@@ -36,7 +36,13 @@
 
 .aboutText {
   color: #403b3b;
-  font-family: Graphik Web,Helvetica Neue,Helvetica,Arial,Verdana,sans-serif;
+  font-family:
+    Graphik Web,
+    Helvetica Neue,
+    Helvetica,
+    Arial,
+    Verdana,
+    sans-serif;
 }
 
 .imageWrap {
