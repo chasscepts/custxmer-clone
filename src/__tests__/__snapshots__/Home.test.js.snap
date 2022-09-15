@@ -1,0 +1,420 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home matches snapshot 1`] = `
+<section
+  className="container"
+>
+  <div
+    className="container"
+  >
+    <section>
+      <div
+        className="container"
+      >
+        <h1
+          className="heading"
+        >
+          Manage and contact your service providers by simply tapping your phone!
+        </h1>
+        <div
+          className="bannerWrap"
+        >
+          <div
+            className="bannerWrapInner"
+          >
+            <img
+              alt="mobile app"
+              className="bgMobile"
+              src="mobile2.webp"
+            />
+            <img
+              alt="mobile app"
+              className="bgMobile"
+              src="mobile3.webp"
+            />
+            <img
+              alt="mobile app"
+              className="fgMobile"
+              src="mobile1.webp"
+            />
+            <img
+              alt="mobile app"
+              className="cartoon1"
+              src="cartoon1.webp"
+            />
+            <img
+              alt="mobile app"
+              className="cartoon2"
+              src="cartoon2.webp"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section
+      className="sliderSection"
+    >
+      <h1
+        className="clip"
+      >
+        Slide Show
+      </h1>
+      <div
+        className="container sliderContainer"
+      >
+        <div
+          className="slideWrap"
+        >
+          <div
+            className="container"
+          >
+            <div
+              className="slideClip"
+            >
+              <div
+                className="slide left"
+              >
+                <div
+                  className="slide"
+                >
+                  <div
+                    className="slideTextWrap"
+                  >
+                    <h1
+                      className="slideTitle"
+                    >
+                      Main Heading Three
+                    </h1>
+                    <div
+                      className="slideText"
+                    >
+                      At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos.
+                    </div>
+                    <div
+                      className="slideLinkWrap"
+                    >
+                      <a
+                        href="https://github.com/Custxmer/Simple-Recruitment-Take-Home-Project"
+                        rel="noreferrer"
+                        target="_blank"
+                      >
+                        Read More
+                      </a>
+                    </div>
+                  </div>
+                  <div
+                    className="slideImageWrap"
+                  >
+                    <img
+                      alt="slide"
+                      className="slideImage"
+                      src="slide3.png"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div
+                className="slide foremost"
+              >
+                <div
+                  className="slide"
+                >
+                  <div
+                    className="slideTextWrap"
+                  >
+                    <h1
+                      className="slideTitle"
+                    >
+                      Main Heading One
+                    </h1>
+                    <div
+                      className="slideText"
+                    >
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    </div>
+                    <div
+                      className="slideLinkWrap"
+                    >
+                      <a
+                        href="https://github.com/Custxmer/Simple-Recruitment-Take-Home-Project"
+                        rel="noreferrer"
+                        target="_blank"
+                      >
+                        Read More
+                      </a>
+                    </div>
+                  </div>
+                  <div
+                    className="slideImageWrap"
+                  >
+                    <img
+                      alt="slide"
+                      className="slideImage"
+                      src="slide1.png"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div
+                className="slide right"
+              >
+                <div
+                  className="slide"
+                >
+                  <div
+                    className="slideTextWrap"
+                  >
+                    <h1
+                      className="slideTitle"
+                    >
+                      Main Heading Two
+                    </h1>
+                    <div
+                      className="slideText"
+                    >
+                      Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.
+                    </div>
+                    <div
+                      className="slideLinkWrap"
+                    >
+                      <a
+                        href="https://github.com/Custxmer/Simple-Recruitment-Take-Home-Project"
+                        rel="noreferrer"
+                        target="_blank"
+                      >
+                        Read More
+                      </a>
+                    </div>
+                  </div>
+                  <div
+                    className="slideImageWrap"
+                  >
+                    <img
+                      alt="slide"
+                      className="slideImage"
+                      src="slide2.jpg"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="cover"
+            >
+              <nav
+                className="nav"
+              >
+                <button
+                  aria-label="Next"
+                  className="navBtn"
+                  onClick={[Function]}
+                  type="button"
+                >
+                  <svg
+                    viewBox="0 0 7.4099998 12"
+                  >
+                    <path
+                      d="M 7.41,10.58 2.83,6 7.41,1.41 6,0 0,6 6,12 Z"
+                      fill="currentColor"
+                    />
+                  </svg>
+                </button>
+                <button
+                  aria-label="Previous"
+                  className="navBtn"
+                  onClick={[Function]}
+                  type="button"
+                >
+                  <svg
+                    viewBox="0 0 7.4099998 12"
+                  >
+                    <path
+                      d="M 0,10.58 4.58,6 0,1.41 1.41,0 l 6,6 -6,6 z"
+                      fill="currentColor"
+                    />
+                  </svg>
+                </button>
+              </nav>
+            </div>
+          </div>
+        </div>
+        <ol
+          aria-label="Slide Index Indicator"
+          className="slideIndexIndicatorWrap"
+        >
+          <li
+            aria-current={true}
+          >
+            <span
+              className="slideIndexIndicator active"
+            />
+          </li>
+          <li
+            aria-current={false}
+          >
+            <span
+              className="slideIndexIndicator "
+            />
+          </li>
+          <li
+            aria-current={false}
+          >
+            <span
+              className="slideIndexIndicator "
+            />
+          </li>
+        </ol>
+      </div>
+    </section>
+    <section
+      className="articleSection"
+    >
+      <h1
+        className="clip"
+      >
+        Articles
+      </h1>
+      <div
+        className="container articesContainer"
+      >
+        <div
+          className="articlesWrap"
+        >
+          <section
+            className="articleCard"
+          >
+            <div
+              className="articleIconWrap"
+            >
+              <i
+                className="fa-sharp fa-solid fa-images"
+              />
+            </div>
+            <h1
+              className="articleTitle"
+            >
+              Title 1
+            </h1>
+            <div
+              className="articleText"
+            >
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </div>
+            <div
+              className="articleLinkWrap"
+            >
+              <a
+                className="articleLink"
+                href="https://github.com/Custxmer/Simple-Recruitment-Take-Home-Project"
+                rel="noreferrer"
+                target="_blank"
+              >
+                Read More
+              </a>
+            </div>
+          </section>
+          <section
+            className="articleCard"
+          >
+            <div
+              className="articleIconWrap"
+            >
+              <i
+                className="fa-sharp fa-solid fa-map-location-dot"
+              />
+            </div>
+            <h1
+              className="articleTitle"
+            >
+              Title 2
+            </h1>
+            <div
+              className="articleText"
+            >
+              At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti.
+            </div>
+            <div
+              className="articleLinkWrap"
+            >
+              <a
+                className="articleLink"
+                href="https://github.com/Custxmer/Simple-Recruitment-Take-Home-Project"
+                rel="noreferrer"
+                target="_blank"
+              >
+                Read More
+              </a>
+            </div>
+          </section>
+          <section
+            className="articleCard"
+          >
+            <div
+              className="articleIconWrap"
+            >
+              <i
+                className="fa-solid fa-cloud-arrow-up"
+              />
+            </div>
+            <h1
+              className="articleTitle"
+            >
+              Title 3
+            </h1>
+            <div
+              className="articleText"
+            >
+              Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem.
+            </div>
+            <div
+              className="articleLinkWrap"
+            >
+              <a
+                className="articleLink"
+                href="https://github.com/Custxmer/Simple-Recruitment-Take-Home-Project"
+                rel="noreferrer"
+                target="_blank"
+              >
+                Read More
+              </a>
+            </div>
+          </section>
+          <section
+            className="articleCard"
+          >
+            <div
+              className="articleIconWrap"
+            >
+              <i
+                className="fa-sharp fa-solid fa-city"
+              />
+            </div>
+            <h1
+              className="articleTitle"
+            >
+              Title 4
+            </h1>
+            <div
+              className="articleText"
+            >
+              Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et.
+            </div>
+            <div
+              className="articleLinkWrap"
+            >
+              <a
+                className="articleLink"
+                href="https://github.com/Custxmer/Simple-Recruitment-Take-Home-Project"
+                rel="noreferrer"
+                target="_blank"
+              >
+                Read More
+              </a>
+            </div>
+          </section>
+        </div>
+      </div>
+    </section>
+  </div>
+</section>
+`;

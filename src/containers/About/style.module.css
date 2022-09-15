@@ -1,0 +1,57 @@
+.container {
+  position: relative;
+}
+
+.bannerWrap {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: -1;
+}
+
+.banner {
+  background-image: url(../../assets/images/project-management-meeting-1.jpg);
+  background-size: 100% 100%;
+}
+
+.homeTitle {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-bottom: 150px;
+  color: #fff;
+}
+
+.h1 {
+  font-size: 72px;
+  text-align: center;
+}
+
+.bg {
+  background-color: #fff;
+  padding: 80px 0;
+}
+
+.aboutText {
+  color: #403b3b;
+  font-family:
+    Graphik Web,
+    Helvetica Neue,
+    Helvetica,
+    Arial,
+    Verdana,
+    sans-serif;
+}
+
+.imageWrap {
+  padding: 60px 0;
+}
+
+.global {
+  display: block;
+  width: 100%;
+  max-width: 400px;
+  margin: auto;
+}

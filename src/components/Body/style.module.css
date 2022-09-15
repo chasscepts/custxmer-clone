@@ -1,0 +1,201 @@
+.container {
+  position: relative;
+}
+
+.heading {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.bannerWrap {
+  position: relative;
+  padding: 40px 20px 60px;
+}
+
+.bannerWrapInner {
+  position: relative;
+  width: 100%;
+  max-width: 480px;
+  margin: auto;
+  padding: 30px 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.bgMobile {
+  width: 100%;
+  height: 100%;
+}
+
+.fgMobile {
+  position: absolute;
+  top: 0;
+  left: 25%;
+  width: 50%;
+  height: 100%;
+}
+
+.cartoon1 {
+  position: absolute;
+  bottom: calc(100% - 30px);
+  left: 75%;
+}
+
+.cartoon2 {
+  position: absolute;
+  top: calc(100% - 30px);
+  right: 75%;
+}
+
+.sliderSection {
+  padding-bottom: 20px;
+}
+
+.sliderContainer {
+  padding: 0 30px;
+}
+
+.slideWrap {
+  position: relative;
+  height: 300px;
+}
+
+.slide {
+  padding: 50px;
+  background-color: teal;
+  color: #fff;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  height: 100%;
+}
+
+.slideTextWrap {
+  width: 100%;
+  padding-right: 50px;
+}
+
+.slideTitle {
+  margin-bottom: 20px;
+}
+
+.slideLinkWrap {
+  padding: 15px 0 0;
+}
+
+.slideImageWrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slideIndexIndicatorWrap {
+  list-style: none;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  background-color: #ececec;
+}
+
+.slideIndexIndicatorWrap > li:not(:first-child) {
+  margin-left: 5px;
+}
+
+.slideIndexIndicator {
+  display: block;
+  height: 0;
+  border-top: 3px solid #b3b7ba;
+  width: 70px;
+}
+
+.slideIndexIndicator.active {
+  border-top-color: #0a0657;
+}
+
+.articleSection {
+  background-color: #ececec;
+}
+
+.articesContainer {
+  padding: 10px 60px 60px;
+}
+
+.articlesWrap {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.articleCard {
+  position: relative;
+  background-color: #fff;
+  padding: 10px;
+  width: 100%;
+  max-width: 400px;
+  height: 100%;
+  margin: auto;
+}
+
+.articleIconWrap {
+  display: flex;
+  justify-content: center;
+  color: #ff7101;
+  font-size: 50px;
+}
+
+.articleTitle {
+  text-align: center;
+  color: teal;
+  padding: 15px;
+}
+
+.articleText {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.articleLinkWrap {
+  position: absolute;
+  left: 0;
+  bottom: -18px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.articleLink {
+  padding: 7px 10px;
+  background-color: teal;
+  color: #fff;
+}
+
+@media only screen and (max-width: 768px) {
+  .articlesWrap {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 40px;
+  }
+
+  .articesContainer {
+    padding: 20px 60px 60px;
+  }
+
+  .slideWrap {
+    height: 500px;
+  }
+
+  .slide {
+    display: block;
+  }
+
+  .slideTitle {
+    text-align: center;
+    font-size: 28px;
+  }
+
+  .slideLinkWrap {
+    padding: 30px 0;
+    display: flex;
+    justify-content: center;
+  }
+}

@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Drawer Navigation matches snapshot 1`] = `
+<div
+  className="drawerNavContainer "
+>
+  <div
+    className="drawerHeader"
+  >
+    <button
+      className="drawerCloseBtn"
+      onClick={[Function]}
+      type="button"
+    >
+      <i
+        className="fa-solid fa-xmark"
+      />
+    </button>
+  </div>
+  <nav>
+    <ul
+      className="plain-list"
+    >
+      <li
+        className="listItem"
+      >
+        <a
+          className="link active"
+          href="/"
+          onClick={[Function]}
+        >
+          HOME
+        </a>
+      </li>
+      <li
+        className="listItem"
+      >
+        <a
+          className="link "
+          href="/about"
+          onClick={[Function]}
+        >
+          ABOUT
+        </a>
+      </li>
+      <li
+        className="listItem"
+      >
+        <a
+          className="link "
+          href="/services"
+          onClick={[Function]}
+        >
+          SERVICES
+        </a>
+      </li>
+      <li
+        className="listItem"
+      >
+        <a
+          className="link "
+          href="/contact"
+          onClick={[Function]}
+        >
+          CONTACT
+        </a>
+      </li>
+    </ul>
+  </nav>
+</div>
+`;

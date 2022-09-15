@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Main Menu matches snapshot 1`] = `
+<nav
+  className="menu"
+>
+  <ul
+    className="plain-list horizontal"
+  >
+    <li
+      className="menuItem"
+    >
+      <a
+        aria-current={true}
+        className="link active"
+        href="/"
+        onClick={[Function]}
+      >
+        HOME
+      </a>
+    </li>
+    <li
+      className="menuItem"
+    >
+      <a
+        aria-current={false}
+        className="link "
+        href="/about"
+        onClick={[Function]}
+      >
+        ABOUT
+      </a>
+    </li>
+    <li
+      className="menuItem"
+    >
+      <a
+        aria-current={false}
+        className="link "
+        href="/services"
+        onClick={[Function]}
+      >
+        SERVICES
+      </a>
+    </li>
+    <li
+      className="menuItem"
+    >
+      <a
+        aria-current={false}
+        className="link "
+        href="/contact"
+        onClick={[Function]}
+      >
+        CONTACT
+      </a>
+    </li>
+  </ul>
+</nav>
+`;

@@ -1,0 +1,16 @@
+.socialMediaNav {
+  display: block;
+}
+
+.listItem:not(:first-child) {
+  margin-left: 15px;
+}
+
+.socialMediaLink {
+  transition: all 0.3s linear;
+  color: #fff;
+}
+
+.socialMediaLink:hover {
+  color: #ccc;
+}
