@@ -262,7 +262,7 @@ const Slider = ({
       </div>
       <div className={css.cover}>
         <nav className={css.nav}>
-          <button type="button" className={css.navBtn} onClick={next}>
+          <button aria-label="Next" type="button" className={css.navBtn} onClick={next}>
             <svg viewBox="0 0 7.4099998 12">
               <path
                 fill="currentColor"
@@ -270,7 +270,7 @@ const Slider = ({
               />
             </svg>
           </button>
-          <button type="button" className={css.navBtn} onClick={previous}>
+          <button aria-label="Previous" type="button" className={css.navBtn} onClick={previous}>
             <svg viewBox="0 0 7.4099998 12">
               <path
                 fill="currentColor"

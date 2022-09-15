@@ -1,0 +1,226 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AppHeader matches snapshot 1`] = `
+<header>
+  <h1
+    className="clip"
+  >
+    Custxmer
+  </h1>
+  <div
+    className="headerWrap"
+  >
+    <div
+      className="container header"
+    >
+      <div
+        className="logoWrap"
+      >
+        <a
+          href="/"
+          onClick={[Function]}
+        >
+          <img
+            alt="logo"
+            className="logo"
+            src="custxmer-logo.webp"
+          />
+        </a>
+      </div>
+      <div
+        className="mainMenuWrap"
+      >
+        <nav
+          className="menu"
+        >
+          <ul
+            className="plain-list horizontal"
+          >
+            <li
+              className="menuItem"
+            >
+              <a
+                aria-current={true}
+                className="link active"
+                href="/"
+                onClick={[Function]}
+              >
+                HOME
+              </a>
+            </li>
+            <li
+              className="menuItem"
+            >
+              <a
+                aria-current={false}
+                className="link "
+                href="/about"
+                onClick={[Function]}
+              >
+                ABOUT
+              </a>
+            </li>
+            <li
+              className="menuItem"
+            >
+              <a
+                aria-current={false}
+                className="link "
+                href="/services"
+                onClick={[Function]}
+              >
+                SERVICES
+              </a>
+            </li>
+            <li
+              className="menuItem"
+            >
+              <a
+                aria-current={false}
+                className="link "
+                href="/contact"
+                onClick={[Function]}
+              >
+                CONTACT
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div
+        className="socialMediaWrap"
+      >
+        <nav
+          className="socialMediaNav"
+        >
+          <ul
+            className="plain-list horizontal"
+          >
+            <li
+              className="listItem"
+            >
+              <a
+                className="socialMediaLink"
+                href="https://twitter.com/chasscepts"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <i
+                  className="fab fa-twitter"
+                />
+              </a>
+            </li>
+            <li
+              className="listItem"
+            >
+              <a
+                className="socialMediaLink"
+                href="https://www.linkedin.com/in/chasscepts/"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <i
+                  className="fa-brands fa-linkedin-in"
+                />
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div
+        className="hamburgerWrap"
+      >
+        <button
+          className="hamburger"
+          onClick={[Function]}
+          type="button"
+        >
+          <i
+            className="fa-solid fa-bars"
+          />
+        </button>
+      </div>
+    </div>
+  </div>
+  <div
+    className="location"
+  >
+    <div
+      className="container locationInner"
+    >
+      <span
+        className="locationText"
+      >
+        /Home
+      </span>
+    </div>
+  </div>
+  <div
+    className="drawerNavContainer "
+  >
+    <div
+      className="drawerHeader"
+    >
+      <button
+        className="drawerCloseBtn"
+        onClick={[Function]}
+        type="button"
+      >
+        <i
+          className="fa-solid fa-xmark"
+        />
+      </button>
+    </div>
+    <nav>
+      <ul
+        className="plain-list"
+      >
+        <li
+          className="listItem"
+        >
+          <a
+            className="link active"
+            href="/"
+            onClick={[Function]}
+          >
+            HOME
+          </a>
+        </li>
+        <li
+          className="listItem"
+        >
+          <a
+            className="link "
+            href="/about"
+            onClick={[Function]}
+          >
+            ABOUT
+          </a>
+        </li>
+        <li
+          className="listItem"
+        >
+          <a
+            className="link "
+            href="/services"
+            onClick={[Function]}
+          >
+            SERVICES
+          </a>
+        </li>
+        <li
+          className="listItem"
+        >
+          <a
+            className="link "
+            href="/contact"
+            onClick={[Function]}
+          >
+            CONTACT
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+`;
