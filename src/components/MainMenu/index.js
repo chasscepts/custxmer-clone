@@ -10,7 +10,11 @@ const MainMenu = () => {
       <ul className="plain-list horizontal">
         {Object.keys(paths).map((key) => (
           <li key={key} className={css.menuItem}>
-            <Link className={`${css.link} ${pathname === paths[key] ? css.active : ''}`} to={paths[key]}>
+            <Link
+              aria-current={pathname === paths[key]}
+              className={`${css.link} ${pathname === paths[key] ? css.active : ''}`}
+              to={paths[key]}
+            >
               {key}
             </Link>
           </li>
